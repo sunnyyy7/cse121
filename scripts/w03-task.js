@@ -8,8 +8,8 @@ function add(number1, number2) {
 }
 
 function addNumbers() {
-    let addend1 = parseInt(document.querySelector('#addend1').value);
-    let addend2 = parseInt(document.querySelector('#addend2').value);
+    let addend1 = parseInt(document.querySelector('#add1').value);
+    let addend2 = parseInt(document.querySelector('#add2').value);
     let result = add(addend1, addend2);
     document.querySelector('#sum').value = result;
 }
@@ -23,8 +23,8 @@ const subtract = function (number1, number2) {
 }
 
 const subtractNumbers = function() {
-    let minuend = parseInt(document.querySelector('#minuend').value);
-    let subtrahend = parseInt(document.querySelector('#subtrahend').value);
+    let minuend = parseInt(document.querySelector('#subtract1').value);
+    let subtrahend = parseInt(document.querySelector('#subtract2').value);
     let result = subtract(minuend, subtrahend);
     document.querySelector('#difference').value = result;
 }
@@ -68,7 +68,7 @@ document.querySelector('#year').textContent = currentYear;
 
 
 /* ARRAY METHODS - Functional Programming */
-const numbers = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23];
+const numbers = [1,2,3,4,5,6,7,8,9,10,11,12,13];
 /* Output Source Array */
 document.querySelector('#array').textContent = numbers;
 /* Output Odds Only Array */
