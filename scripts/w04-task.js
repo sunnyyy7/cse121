@@ -42,7 +42,7 @@ myInfo.placesLived = [
     },
     {
         place: 'Hong Kong',
-        length: '20 year'
+        length: '20 years'
     }
 ]
 
